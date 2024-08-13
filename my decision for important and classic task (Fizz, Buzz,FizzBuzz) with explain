@@ -12,4 +12,4 @@ for i in range(1,101):
     else:
         print(i)
 and about that moment, in this task in order to all working really good we should put to beginner part of our code (i%15) and already after this we can put (i%3) and (i%5) in any order, but why?
-all really easy and obviously, in general we should do like this because 15 dividing immedately on 3 and 5 and if immedately in beginner part code will be executing that program don't will be doing output with next items.
+all really easy and obviously, in general we should do like this because 15 dividing immedately on 3 and 5 and if immedately in beginner part code will be executing that, then program don't will be doing output with next items.
