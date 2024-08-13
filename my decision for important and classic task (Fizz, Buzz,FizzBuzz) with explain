@@ -1,0 +1,15 @@
+Here I would like tell about my method how to decided classic task for beginners (Fizz Buzz) where you need create program which declare from 1 to 100 and check them and  do output with such letters (Fizz,Buzz,FizzBuzz)
+and here's the condition of this task (if the program finds number which can divide to 3 it does output "Fizz" and if this number divide to 5 it does output "Buzz" and if this number divide to 15 it does output "FizzBuzz"
+Let's finally start to decide this (but firstly I would warn you that this task has one secret which majority people try to find several minutes and about this moment we will be talking some later) so let's go to code.
+Here's my solve for this task:
+for i in range(1,101):
+    if i%15:
+        print("FizzBuzz")
+    elif i%3:
+        print("Fizz")
+    elif i%5:
+        print("Buzz")
+    else:
+        print(i)
+and about that moment, in this task in order to all working really good we should put to beginner part of our code (i%15) and already after this we can put (i%3) and (i%5) in any order, but why?
+all really easy and obviously, in general we should do like this because 15 dividing immedately on 3 and 5 and if immedately in beginner part code will be executing that program don't will be doing output with next items.
